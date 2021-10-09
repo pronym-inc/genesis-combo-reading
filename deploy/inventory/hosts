@@ -1,9 +1,9 @@
 [production]
-myproductionserver.com
+gcr.pronym.com
 
 [dev]
-mydevserver.com
+dev-gcr.pronym.com
 
 [all_in_one]
-myproductionserver.com
-mydevserver.com
+gcr.pronym.com
+dev-gcr.pronym.com

@@ -1,5 +1,5 @@
 ---
-server_name: myproductionserver.com
+server_name: gcr.pronym.com
 listen_port: 443
 pronym_environment: production
 include_ssl_certs: true

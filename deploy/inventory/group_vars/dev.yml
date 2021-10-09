@@ -1,5 +1,5 @@
 ---
-server_name: mydevserver.com
+server_name: dev-gcr.pronym.com
 listen_port: 443
 pronym_environment: development
 include_ssl_certs: true
