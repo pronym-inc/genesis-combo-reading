@@ -1,0 +1,7 @@
+---
+server_name: myproductionserver.com
+listen_port: 443
+pronym_environment: production
+include_ssl_certs: true
+nginx_copy_ssl_certs: true
+django_git_branch: master

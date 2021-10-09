@@ -1,0 +1,9 @@
+[production]
+myproductionserver.com
+
+[dev]
+mydevserver.com
+
+[all_in_one]
+myproductionserver.com
+mydevserver.com

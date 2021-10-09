@@ -1,0 +1,11 @@
+*-console.log
+.vagrant
+git_ssh_key
+id_rsa
+.DS_Store
+playbook.retry
+src/genesis_combo_reading
+lib/python3.8
+.idea/
+/lib/
+/src/genesis_combo_reading/

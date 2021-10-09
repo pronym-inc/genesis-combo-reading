@@ -1,0 +1,3 @@
+[submodule "pronym-ansible-roles"]
+	url = git@github.com:pronym-inc/pronym-ansible-roles.git
+	path = pronym-ansible-roles
