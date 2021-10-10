@@ -7,7 +7,6 @@
     - secrets
     - configure-server
     - supervisor
-    - postgres-server
     - postgres
     - redis
     - django-application
