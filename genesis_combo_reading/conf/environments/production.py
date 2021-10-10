@@ -4,7 +4,7 @@ from genesis_combo_reading.conf.generic.settings import *  # noqa
 DEBUG = False
 DEBUG_STATIC_FILES = False
 
-ALLOWED_HOSTS = ['gcr.pronym.com']
+ALLOWED_HOSTS = ['combo.genesishealthtechnologies.com']
 
 LOGGING = {
     'version': 1,

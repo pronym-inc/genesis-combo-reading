@@ -1,9 +1,9 @@
 [production]
-gcr.pronym.com
+combo.genesishealthtechnologies.com
 
 [dev]
-dev-gcr.pronym.com
+dev-combo.genesishealthtechnologies.com
 
 [all_in_one]
-gcr.pronym.com
-dev-gcr.pronym.com
+combo.genesishealthtechnologies.com
+dev-combo.genesishealthtechnologies.com

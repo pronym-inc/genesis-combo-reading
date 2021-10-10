@@ -1,5 +1,5 @@
 ---
-server_name: dev-gcr.pronym.com
+server_name: dev-combo.genesishealthtechnologies.com
 listen_port: 443
 pronym_environment: development
 include_ssl_certs: true
