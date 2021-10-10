@@ -4,7 +4,7 @@ from genesis_combo_reading.conf.generic.settings import *  # noqa
 DEBUG = False
 DEBUG_STATIC_FILES = False
 
-ALLOWED_HOSTS = ['changemetotheproductiondomain.com']
+ALLOWED_HOSTS = ['gcr.pronym.com']
 
 LOGGING = {
     'version': 1,
