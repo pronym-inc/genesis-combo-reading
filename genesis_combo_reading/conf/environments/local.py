@@ -26,3 +26,5 @@ LOGGING = {
         }
     }
 }
+
+ENCRYPTION_BINARY_DIRECTORY = '/Users/greggkeithley/Work/Genesis/genesis-combo-reading/venv/bin'

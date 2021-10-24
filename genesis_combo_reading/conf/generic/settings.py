@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_extensions',
     'gunicorn',
+    'genesis_combo_reading.apps.core'
 ]
 
 MIDDLEWARE = [
@@ -157,3 +158,9 @@ MANAGERS = ADMINS
 
 USE_TZ = True
 TIME_ZONE = 'America/Chicago'
+
+ENCRYPTION_BINARY_DIRECTORY = '/webapps/genesishealth/bin'
+READING_ENCRYPTION_KEY = secrets.get('reading_encryption_key', 'abcdef1234567890')
+READING_ENABLE_ENCRYPTION = False
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

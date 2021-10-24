@@ -1,4 +1,4 @@
-#!venv/bin/python3.8
+#!venv/bin/python3.10
 import os.path
 import sys
 
