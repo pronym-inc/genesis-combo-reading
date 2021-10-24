@@ -15,4 +15,3 @@
     - celery
     - celery-beat
     - nginx
-    - genesis-combo-reading-server
