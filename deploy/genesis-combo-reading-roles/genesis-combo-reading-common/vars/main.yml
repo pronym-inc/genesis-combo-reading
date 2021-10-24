@@ -4,4 +4,4 @@ django_app_git_url: git@github.com:pronym-inc/genesis-combo-reading.git
 django_app_extra_apt_dependencies:
   - libcurl4-nss-dev
 configure_server_apt_repos:
-  - url: ppa:deadsnakes/ppa
+  - repo_url: ppa:deadsnakes/ppa
