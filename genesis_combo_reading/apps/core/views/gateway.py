@@ -29,4 +29,4 @@ class GatewayView(View):
         dt = self.time_service.get_datetime()
         local_dt = self.time_service.get_local_datetime()
         dt_format = "%Y/%m/%d %H:%M:%S"
-        return HttpResponse(f"2000\r\n{dt.strftime(dt_format)}\r\n{local_dt.strftime(dt_format)}")
+        return HttpResponse(f"2000\r\n{dt.strftime(dt_format)}\r\n{local_dt.strftime(dt_format)}".encode('ascii'))
