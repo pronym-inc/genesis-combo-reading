@@ -32,7 +32,6 @@ class GetGatewayDataView(View):
         super().__init__(*args, **kwargs)
 
     def post(self, request: HttpRequest, *args, **kwargs) -> HttpResponse:
-        print(self.reading_processing_service)
         result = self.reading_processing_service.process_reading(request.body)
 
         status_code, error_code = self._get_status_and_error_code_for_result(result)
